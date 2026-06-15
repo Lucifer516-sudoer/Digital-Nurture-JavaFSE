@@ -5,7 +5,7 @@ class PhoneBook {
     private Map<String, String> numbers = new HashMap<>();
 
     public void setNumber(String userName, String number) {
-        numbers.put(userName, userName);
+        numbers.put(userName, number);
     }
 
     public String getNumber(String userName) {
