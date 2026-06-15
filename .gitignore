@@ -1,2 +1,3 @@
 # Byte code files from java
 *.class
+*.never_to_be_committed
