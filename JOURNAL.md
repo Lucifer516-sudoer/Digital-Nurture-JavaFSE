@@ -50,3 +50,16 @@ public class SingleResponsibility {
 }
 
 ```
+
+
+###  7:47 PM
+- I actually understood how, static is being used.
+- Anything that is declared with the keyword `static` is actually made to be just with the `Class` other than the `Object` 
+
+# 16/06/2026
+> Was slightly ill, so didn't want to waste any time, so spent time on recovering ...
+
+# 17/06/2026
+### 6:30 PM
+- Was understand the OOP concept in JAVA, well, I am bad at OOPs for this long ...
+- And Java Doesnt have multiple inheritance due to diamond problem ...
