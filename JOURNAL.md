@@ -63,3 +63,8 @@ public class SingleResponsibility {
 ### 6:30 PM
 - Was understand the OOP concept in JAVA, well, I am bad at OOPs for this long ...
 - And Java Doesnt have multiple inheritance due to diamond problem ...
+
+### 7:24 PM
+- Well, I wanted to rotate topic, so trying out the hands-on, creating the singleton class
+- Its actually considered an anti-pattern for some reason, which i dont bother knowing now.
+- Let me create that SingleTon pattern in java, well i have a small amount of experience regardin its creation with using in java, for creating a database wrapper class
