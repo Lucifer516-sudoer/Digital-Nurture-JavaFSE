@@ -56,8 +56,12 @@ public class SingleResponsibility {
 - I actually understood how, static is being used.
 - Anything that is declared with the keyword `static` is actually made to be just with the `Class` other than the `Object` 
 
+---
+
 # 16/06/2026
 > Was slightly ill, so didn't want to waste any time, so spent time on recovering ...
+
+---
 
 # 17/06/2026
 ### 6:30 PM
@@ -68,3 +72,9 @@ public class SingleResponsibility {
 - Well, I wanted to rotate topic, so trying out the hands-on, creating the singleton class
 - Its actually considered an anti-pattern for some reason, which i dont bother knowing now.
 - Let me create that SingleTon pattern in java, well i have a small amount of experience regardin its creation with using in java, for creating a database wrapper class
+
+---
+
+# 18/06/2026
+### 6:27 PM
+- Well instead of completely creating all sorts of pattern, i am going to concentrate on the ones that where mentioned
