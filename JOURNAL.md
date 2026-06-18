@@ -78,3 +78,7 @@ public class SingleResponsibility {
 # 18/06/2026
 ### 6:27 PM
 - Well instead of completely creating all sorts of pattern, i am going to concentrate on the ones that where mentioned
+
+### 7:27 PM
+- Interesting, I actually today alone saw there was an hands on for me to create a logger class that implemented the singleton, it was really useful.
+- And co-incidentally the time is `7:27 PM`.
