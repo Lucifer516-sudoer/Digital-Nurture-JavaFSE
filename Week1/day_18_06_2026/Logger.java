@@ -41,6 +41,30 @@ public class Logger {
     private Logger(String name, String level) {
         this.name = name;
         this.level = level;
+        // System.out.println("===================== LOGGER INITIALIZED
+        // =====================");
+        // System.out.println("===================== Name: " + this.name +
+        // "=====================");
+        // System.out.println("===================== Level: " + this.level +
+        // "=====================");
+        // Doesnt feel necessary now, after a very long day, i neeed to give my brain a
+        // rest
+    }
+
+    public String centerWith(String text, int width, char fillChar) {
+        ///
+        /// Referred Gemini
+        ///
+        if (text == null || text.length() >= width)
+            return (fillChar + text + fillChar);
+        int padding = (width - text.length()) / 2 + text.length();
+
+        return String.format("%-" + width + "s", String.format("%" + padding + "s", text)).replaceAll(" ",
+                String.valueOf(fillChar));
+    }
+
+    public String centerWith(String text, int width) {
+        return centerWith(text, width, ' ');
     }
 
     public static Logger getLogger(String name, String level) {
@@ -65,6 +89,6 @@ public class Logger {
     // actually i
     // dont need this
     public void log(String level, String message) {
-        System.out.println("[ " + level.toUpperCase() + " ] [" + getTimeStamp() + "] " + message);
+        System.out.println("[" + centerWith(level.toUpperCase(), 10) + "] [" + getTimeStamp() + "] " + message);
     }
 }
