@@ -82,3 +82,14 @@ public class SingleResponsibility {
 ### 7:27 PM
 - Interesting, I actually today alone saw there was an hands on for me to create a logger class that implemented the singleton, it was really useful.
 - And co-incidentally the time is `7:27 PM`.
+
+### 8:01 PM
+- Got to hostel, food is very important, to any living being
+
+---
+
+# 19/06/2026
+# 9:50 AM
+- Got into learning by 9:50 AM
+- Created the Factory Method Pattern
+- Along with interface and abstraction
