@@ -1,4 +1,4 @@
-package Week1.day_19_06_2026;
+package Week1.day_19_06_2026.FactoryPattern;
 
 public abstract class DocumentFactory {
     public abstract Document createDocument(String filePath);

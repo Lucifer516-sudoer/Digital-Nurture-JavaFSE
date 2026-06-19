@@ -93,6 +93,14 @@ public class SingleResponsibility {
 - Got into learning by 9:50 AM
 - Created the Factory Method Pattern
 - Along with interface and abstraction
+
+---
+
 # 3:03 PM
 - A Sr. Director Manager from XYZ company came and gave us a great talk to listen to.
 - And now alone I committed the source code.
+
+---
+
+# 3:07 PM
+- Next to the Builder Pattern, though it is not mandatory pattern

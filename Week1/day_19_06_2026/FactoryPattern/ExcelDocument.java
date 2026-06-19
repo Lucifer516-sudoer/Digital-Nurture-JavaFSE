@@ -1,9 +1,9 @@
-package Week1.day_19_06_2026;
+package Week1.day_19_06_2026.FactoryPattern;
 
-public class PdfDocument implements Document {
+public class ExcelDocument implements Document {
     private String filePath;
 
-    public PdfDocument(String filePath) {
+    public ExcelDocument(String filePath) {
         this.filePath = filePath;
     }
 
@@ -17,9 +17,8 @@ public class PdfDocument implements Document {
 
     @Override
     public boolean openDocument() {
-        if (this.filePath.endsWith(".pdf") == true)
+        if (this.filePath.endsWith(".xls") || this.filePath.endsWith(".xlsx"))
             return true;
         return false;
     }
-
 }

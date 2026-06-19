@@ -14,7 +14,7 @@
 // - Test the Factory Method Implementation:
 // - Create a test class to demonstrate the creation of different document types using the factory method.
 
-package Week1.day_19_06_2026;
+package Week1.day_19_06_2026.FactoryPattern;
 
 public class FactoryMethodPatternExample {
     public static void main(String[] args) {
