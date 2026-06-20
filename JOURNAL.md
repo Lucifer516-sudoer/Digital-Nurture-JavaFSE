@@ -89,18 +89,33 @@ public class SingleResponsibility {
 ---
 
 # 19/06/2026
-# 9:50 AM
+### 9:50 AM
 - Got into learning by 9:50 AM
 - Created the Factory Method Pattern
 - Along with interface and abstraction
 
 ---
 
-# 3:03 PM
+### 3:03 PM
 - A Sr. Director Manager from XYZ company came and gave us a great talk to listen to.
 - And now alone I committed the source code.
 
 ---
 
-# 3:07 PM
+### 3:07 PM
 - Next to the Builder Pattern, though it is not mandatory pattern
+
+---
+
+# 20/06/2026
+### 9:30 AM
+- Got on the system and started to flip thru what i did yesterday.
+
+### 12:26 PM
+- Understood about builder pattern
+- Made mistake on how its build, method chaining was correct though.
+
+### 12:29 PM
+- I was already one week late to the party, and its gonna be the end of the second week, i am not sure, what i am going to do.
+- But i will do it.
+- Doesn't matter. I will do what i can.
