@@ -120,7 +120,7 @@ Most people stall at **Spring IoC/DI** and again at **Angular Observables**. Her
 - 💻 Write Java code for each principle: One class per principle, written from scratch (not copied)
 - 🔁 Without looking at notes, write the full form of SOLID and one line on what each prevents
 
-**✅ Done?** [ ]
+** Done?** [✅]
 
 ---
 
@@ -132,7 +132,7 @@ Most people stall at **Spring IoC/DI** and again at **Angular Observables**. Her
 - 💻 Implement Singleton (thread-safe), Factory Method, Builder in Java — from memory after reading
 - 🔁 Answer: When would you use Builder over Constructor? Write 3 lines.
 
-**✅ Done?** [ ]
+**✅ Done?** [✅ | 🔃]
 
 ---
 

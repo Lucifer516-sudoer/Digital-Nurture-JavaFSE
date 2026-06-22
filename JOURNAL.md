@@ -135,10 +135,19 @@ public class SingleResponsibility {
 
 ---
 
-# 10:41 PM
+# 10:41 AM
 - Created classes/enums for:
   - 1. Product
   - 2. Rating
   - 3. Review
   - 4. Category
-- On the other hand, I suppose I will take too long to complete these I suppose.
+- On the other hand, I suppose I will take too long to complete these I suppose.****
+
+# 10:55 AM
+- Got lil bit distracted and gone to surf w3schools regarding access/non-access modifiers and stuffs
+
+# 12:11 PM
+- Learning quite the amount of stuffs from w3 schools
+
+# 12:16 PM
+- Implementing the `EcommerceSerch.java`

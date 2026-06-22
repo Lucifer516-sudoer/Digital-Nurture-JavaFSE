@@ -23,3 +23,5 @@
    
 --- 
 - I suppose I will take atleast half a day to gather the information needed
+
+- I actually tried to use array list first, and then, had the different thought and did **this**

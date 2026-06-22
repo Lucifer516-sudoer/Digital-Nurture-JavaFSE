@@ -2,3 +2,5 @@
 *.class
 *.never_to_be_committed
 repomix-output.xml
+repomix-output.md
+repomix-output.*
