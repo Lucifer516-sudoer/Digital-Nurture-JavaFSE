@@ -123,5 +123,22 @@ public class SingleResponsibility {
 ---
 
 # 22/06/2026
+
+# 9:45 AM
 - On `21/06/2026 ` I took rest. Because, all work and no play, makes Jack a dull boy ...
 - Today I need to create the builder pattern successfully and then, create the Ecommerce search site stuff
+
+# 10:18 AM
+- Completed the programming of Computer class using Builder pattern, though I didnt create the director or anything now.
+- Next step, to something cool mentioned in the docx `Exercise 2: E-commerce Platform Search Function`
+- Others in my batch, have already moved to PL/SQL and stuffs, I want to start from the bottom, get to the top.
+
+---
+
+# 10:41 PM
+- Created classes/enums for:
+  - 1. Product
+  - 2. Rating
+  - 3. Review
+  - 4. Category
+- On the other hand, I suppose I will take too long to complete these I suppose.
