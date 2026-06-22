@@ -119,3 +119,9 @@ public class SingleResponsibility {
 - I was already one week late to the party, and its gonna be the end of the second week, i am not sure, what i am going to do.
 - But i will do it.
 - Doesn't matter. I will do what i can.
+
+---
+
+# 22/06/2026
+- On `21/06/2026 ` I took rest. Because, all work and no play, makes Jack a dull boy ...
+- Today I need to create the builder pattern successfully and then, create the Ecommerce search site stuff
