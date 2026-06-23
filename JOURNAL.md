@@ -165,3 +165,10 @@ public class SingleResponsibility {
 - let me correct the implementation first and then continue with the next system
 ## 4:59 PM
 - After doing bit of duties in academics, done the dsa mandatory stuffs, moving on into the PL/SQL today, since, I am already behind the pace
+
+## 5:45 PM
+- Got a bit confused, so consulted ChatGPT 😜 and got some insights ...
+- Let me learn about **JUnit5** instead of **PL/SQL**
+
+## 6:12 PM
+- Just now understand, the diff b/w Project and package in java and why the com usage?.. and stuffs
