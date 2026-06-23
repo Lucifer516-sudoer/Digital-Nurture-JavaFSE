@@ -163,3 +163,5 @@ public class SingleResponsibility {
 - Just now saw that the Ecommerce Platform search I implemented was wrong
 - They have instructed in the docx file, which i probly should have read before itself.
 - let me correct the implementation first and then continue with the next system
+## 4:59 PM
+- After doing bit of duties in academics, done the dsa mandatory stuffs, moving on into the PL/SQL today, since, I am already behind the pace
