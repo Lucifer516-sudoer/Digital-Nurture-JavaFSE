@@ -151,3 +151,15 @@ public class SingleResponsibility {
 
 # 12:16 PM
 - Implementing the `EcommerceSerch.java`
+
+---
+# 23/06/2026
+
+## 10:19 AM
+- Felling ill, due to wheezing issues and low nutrition.
+- Having drizziness
+
+## 10:24 AM
+- Just now saw that the Ecommerce Platform search I implemented was wrong
+- They have instructed in the docx file, which i probly should have read before itself.
+- let me correct the implementation first and then continue with the next system
