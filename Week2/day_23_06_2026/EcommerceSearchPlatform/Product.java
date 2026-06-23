@@ -3,7 +3,7 @@ package Week2.day_23_06_2026.EcommerceSearchPlatform;
 import java.util.ArrayList;
 
 public class Product {
-    private final long productID;
+    private final int productID;
 
     private final String name;
 
@@ -13,9 +13,9 @@ public class Product {
     private final String seller;
     Rating rating;
     private final Category category;
-    private ArrayList<Review> reviews;
+    private ArrayList<Review> reviews = new ArrayList<>();
 
-    public Product(long productID, String name, float price, float discount, long stocksLeft, String seller,
+    public Product(int productID, String name, float price, float discount, long stocksLeft, String seller,
             Rating rating,
             Category category) {
         this.productID = productID;
@@ -29,7 +29,7 @@ public class Product {
         this.category = category;
     }
 
-    public long getProductID() {
+    public int getProductID() {
         return productID;
     }
 

@@ -144,7 +144,7 @@ public class EcommerceSearch {
         for (Product each : products)
             System.out.println(
                     "[ "
-                            + each.getIdentifier()
+                            + each.getProductID()
                             + " ] => " + each.toString());
     }
 

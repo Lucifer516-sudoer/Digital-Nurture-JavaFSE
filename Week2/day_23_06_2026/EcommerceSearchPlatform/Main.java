@@ -8,6 +8,7 @@ public class Main {
         Product[] prods = {
 
                 new Product(
+                        1,
                         "iPhone 15",
                         69999,
                         10,
@@ -16,6 +17,7 @@ public class Main {
                         Rating.STAR_5,
                         Category.ELECTRONICS),
                 new Product(
+                        2,
                         "iPhone 15",
                         68499,
                         12,
@@ -24,6 +26,7 @@ public class Main {
                         Rating.STAR_5,
                         Category.ELECTRONICS),
                 new Product(
+                        3,
                         "Samsung Galaxy S24",
                         62999,
                         15,
@@ -31,7 +34,9 @@ public class Main {
                         "Samsung India",
                         Rating.STAR_5,
                         Category.ELECTRONICS),
+
                 new Product(
+                        4,
                         "Boat Airdopes 311",
                         1499,
                         45,
@@ -39,7 +44,9 @@ public class Main {
                         "Boat Lifestyle",
                         Rating.STAR_4,
                         Category.ELECTRONICS),
+
                 new Product(
+                        5,
                         "Sony WH-1000XM5",
                         24999,
                         20,
@@ -47,7 +54,9 @@ public class Main {
                         "Sony",
                         Rating.STAR_5,
                         Category.ELECTRONICS),
+
                 new Product(
+                        6,
                         "Puma Running Shoes",
                         3299,
                         35,
@@ -55,7 +64,9 @@ public class Main {
                         "Puma",
                         Rating.STAR_4,
                         Category.FASHION),
+
                 new Product(
+                        7,
                         "Levi's Slim Fit Jeans",
                         2299,
                         40,
@@ -63,7 +74,9 @@ public class Main {
                         "Levi's",
                         Rating.STAR_4,
                         Category.FASHION),
+
                 new Product(
+                        8,
                         "Prestige Pressure Cooker",
                         1899,
                         30,
@@ -71,7 +84,9 @@ public class Main {
                         "Prestige",
                         Rating.STAR_5,
                         Category.HOME_AND_KITCHEN),
+
                 new Product(
+                        9,
                         "Milton Water Bottle",
                         499,
                         18,
@@ -79,7 +94,9 @@ public class Main {
                         "Milton",
                         Rating.STAR_4,
                         Category.HOME_AND_KITCHEN),
+
                 new Product(
+                        10,
                         "Mamaearth Face Wash",
                         299,
                         22,
@@ -87,7 +104,9 @@ public class Main {
                         "Mamaearth",
                         Rating.STAR_4,
                         Category.BEAUTY_AND_PERSONAL_CARE),
+
                 new Product(
+                        11,
                         "Dove Shampoo",
                         449,
                         15,
@@ -95,7 +114,9 @@ public class Main {
                         "Hindustan Unilever",
                         Rating.STAR_5,
                         Category.BEAUTY_AND_PERSONAL_CARE),
+
                 new Product(
+                        12,
                         "Aashirvaad Atta 10kg",
                         529,
                         8,
@@ -103,7 +124,9 @@ public class Main {
                         "ITC",
                         Rating.STAR_5,
                         Category.GROCERY),
+
                 new Product(
+                        13,
                         "Tata Salt 1kg",
                         30,
                         5,
@@ -111,7 +134,9 @@ public class Main {
                         "Tata Consumer",
                         Rating.STAR_5,
                         Category.GROCERY),
+
                 new Product(
+                        14,
                         "Amul Butter 500g",
                         285,
                         12,
@@ -119,7 +144,9 @@ public class Main {
                         "Amul",
                         Rating.STAR_4,
                         Category.GROCERY),
+
                 new Product(
+                        15,
                         "Chetak",
                         1900,
                         35,
@@ -141,5 +168,6 @@ public class Main {
         System.out.println("Searching by Category ...");
         List<Product> res = searcher.filterByPrice(200, 500);
         searcher.printProducts(res);
+        System.out.println(searcher.searchProductByID(15).toString());
     }
 }
