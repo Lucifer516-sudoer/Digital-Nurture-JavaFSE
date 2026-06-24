@@ -4,3 +4,50 @@
 repomix-output.xml
 repomix-output.md
 repomix-output.*
+# ==========================
+# Maven
+# ==========================
+target/
+# Maven Wrapper (optional)
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# IntelliJ IDEA
+# ==========================
+.idea/
+*.iml
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# (Optional)
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# ==========================
+# Eclipse
+# ==========================
+.project
+.classpath
+.settings/
+
+# ==========================
+# NetBeans
+# ==========================
+nbproject/private/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.log
