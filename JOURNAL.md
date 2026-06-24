@@ -190,3 +190,7 @@ public class SingleResponsibility {
 - Couldn't eat, because, spoke with a senior, for stuffs regarding, how was his intern etc ...
 - Came by 2:05 PM and finished what was said in the handbook regarding `BeforeEach` and `AfterEach`
 - Uploaded the snapshot, and going to push it to github
+
+## 2:35 PM
+- Little bit of me time, going to learn something on the internet.
+- Work while you work, play while you play.
