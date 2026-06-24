@@ -172,3 +172,7 @@ public class SingleResponsibility {
 
 ## 6:12 PM
 - Just now understand, the diff b/w Project and package in java and why the com usage?.. and stuffs
+
+# 24/06/2026
+## 9:50 AM
+- started to lookinto maven 
