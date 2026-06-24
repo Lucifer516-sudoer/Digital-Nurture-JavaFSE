@@ -66,12 +66,12 @@ public class SingleResponsibility {
 # 17/06/2026
 ### 6:30 PM
 - Was understand the OOP concept in JAVA, well, I am bad at OOPs for this long ...
-- And Java Doesnt have multiple inheritance due to diamond problem ...
+- And Java doesn't have multiple inheritance due to diamond problem ...
 
 ### 7:24 PM
 - Well, I wanted to rotate topic, so trying out the hands-on, creating the singleton class
-- Its actually considered an anti-pattern for some reason, which i dont bother knowing now.
-- Let me create that SingleTon pattern in java, well i have a small amount of experience regardin its creation with using in java, for creating a database wrapper class
+- Its actually considered an anti-pattern for some reason, which i don't bother knowing now.
+- Let me create that SingleTon pattern in java, well i have a small amount of experience regarding its creation with using in java, for creating a database wrapper class
 
 ---
 
@@ -126,10 +126,10 @@ public class SingleResponsibility {
 
 # 9:45 AM
 - On `21/06/2026 ` I took rest. Because, all work and no play, makes Jack a dull boy ...
-- Today I need to create the builder pattern successfully and then, create the Ecommerce search site stuff
+- Today I need to create the builder pattern successfully and then, create the E-commerce search site stuff
 
 # 10:18 AM
-- Completed the programming of Computer class using Builder pattern, though I didnt create the director or anything now.
+- Completed the programming of Computer class using Builder pattern, though I didn't create the director or anything now.
 - Next step, to something cool mentioned in the docx `Exercise 2: E-commerce Platform Search Function`
 - Others in my batch, have already moved to PL/SQL and stuffs, I want to start from the bottom, get to the top.
 
@@ -150,18 +150,18 @@ public class SingleResponsibility {
 - Learning quite the amount of stuffs from w3 schools
 
 # 12:16 PM
-- Implementing the `EcommerceSerch.java`
+- Implementing the `E-commerceSearch.java`
 
 ---
 # 23/06/2026
 
 ## 10:19 AM
 - Felling ill, due to wheezing issues and low nutrition.
-- Having drizziness
+- Having dizziness
 
 ## 10:24 AM
-- Just now saw that the Ecommerce Platform search I implemented was wrong
-- They have instructed in the docx file, which i probly should have read before itself.
+- Just now saw that the E-commerce Platform search I implemented was wrong
+- They have instructed in the docx file, which i probably should have read before itself.
 - let me correct the implementation first and then continue with the next system
 ## 4:59 PM
 - After doing bit of duties in academics, done the dsa mandatory stuffs, moving on into the PL/SQL today, since, I am already behind the pace
@@ -175,7 +175,7 @@ public class SingleResponsibility {
 
 # 24/06/2026
 ## 9:50 AM
-- started to lookinto maven 
+- started to look into maven 
 ## 11:20 AM
 - Time went so fast
 ## 12:11 PM
@@ -188,5 +188,5 @@ public class SingleResponsibility {
 
 ## 2:21 PM
 - Couldn't eat, because, spoke with a senior, for stuffs regarding, how was his intern etc ...
-- Came by 2:05 PM and finished what was said in the handbook regarding beforeeach and aftereach
+- Came by 2:05 PM and finished what was said in the handbook regarding `BeforeEach` and `AfterEach`
 - Uploaded the snapshot, and going to push it to github
