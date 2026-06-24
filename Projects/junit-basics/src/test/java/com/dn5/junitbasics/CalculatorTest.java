@@ -9,25 +9,25 @@ public class CalculatorTest {
     private final Calculator calc = new Calculator(); // Arrange (here I made it as a `fixture`)
 
     @Test
-    public void testAdd() {
+    void testAdd() {
         assertEquals(5, calc.add(2, 3)); // Act & Assert
         /// AAA in action
     }
 
     @Test
-    public void testSubtract() {
+    void testSubtract() {
         assertEquals(-1, calc.subtract(2, 3));
 
     }
 
     @Test
-    public void testMultiply() {
+    void testMultiply() {
         assertEquals(6, calc.multiply(2, 3));
 
     }
 
     @Test
-    public void testDivide() {
+    void testDivide() {
         assertEquals(0, calc.divide(2, 3));
         assertThrows(
                 ArithmeticException.class,
