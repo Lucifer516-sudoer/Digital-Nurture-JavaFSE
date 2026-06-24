@@ -178,3 +178,7 @@ public class SingleResponsibility {
 - started to lookinto maven 
 ## 11:20 AM
 - Time went so fast
+## 12:11 PM
+- It's already noon
+- And hey, i changed my vscode theme, !? why? my eyes where craving for something good
+- I will be leaving the bug in the calculator for worthwhile...
