@@ -176,3 +176,5 @@ public class SingleResponsibility {
 # 24/06/2026
 ## 9:50 AM
 - started to lookinto maven 
+## 11:20 AM
+- Time went so fast
