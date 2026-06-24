@@ -3,7 +3,7 @@ package com.dn5.junitbasics;
 public class Calculator {
 
     public int add(int a, int b) {
-        return (a + b) + 1; // BUG: Intentional Bug
+        return (a + b); // FIXED: Intentional Bug is removed now
     }
 
     public int subtract(int a, int b) {

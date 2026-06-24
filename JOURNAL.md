@@ -182,3 +182,6 @@ public class SingleResponsibility {
 - It's already noon
 - And hey, i changed my vscode theme, !? why? my eyes where craving for something good
 - I will be leaving the bug in the calculator for worthwhile...
+## 12:34 PM
+- Hey its 1234 PM, okay let it be, now i am going to modify the test folder with Junit5 related Fixtures, BeforeEach, and AfterEach
+- Well, asked Chat, and he said, its better supported now, and its good to stay on the latest and stable one.
