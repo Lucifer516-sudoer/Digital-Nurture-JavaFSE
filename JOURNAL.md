@@ -185,3 +185,8 @@ public class SingleResponsibility {
 ## 12:34 PM
 - Hey its 1234 PM, okay let it be, now i am going to modify the test folder with Junit5 related Fixtures, BeforeEach, and AfterEach
 - Well, asked Chat, and he said, its better supported now, and its good to stay on the latest and stable one.
+
+## 2:21 PM
+- Couldn't eat, because, spoke with a senior, for stuffs regarding, how was his intern etc ...
+- Came by 2:05 PM and finished what was said in the handbook regarding beforeeach and aftereach
+- Uploaded the snapshot, and going to push it to github
