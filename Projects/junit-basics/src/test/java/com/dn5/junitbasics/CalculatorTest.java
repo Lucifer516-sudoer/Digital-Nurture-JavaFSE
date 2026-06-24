@@ -3,10 +3,21 @@ package com.dn5.junitbasics;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class CalculatorTest {
-    private final Calculator calc = new Calculator(); // Arrange (here I made it as a `fixture`)
+    private Calculator calc; // Arrange (here I made it as a `fixture`)
+
+    @BeforeEach // NOTE: THough, since this is just one Object creation, I would use BeforeAll,
+                // if its
+                // what it is ...
+    void setup() {
+        System.out.println("Creating the new Calculator ...");
+        calc = new Calculator();
+
+    }
 
     @Test
     void testAdd() {
@@ -35,4 +46,10 @@ public class CalculatorTest {
 
     }
 
+    @AfterEach
+    void tearDown() { // I prefer it to be clean up, rather than tear down, but hey chat is bit more
+                      // of a book worm than me ...
+        System.out.println("Clean up ...");
+        calc = null;
+    }
 }
