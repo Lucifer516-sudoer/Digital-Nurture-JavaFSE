@@ -194,3 +194,8 @@ public class SingleResponsibility {
 ## 2:35 PM
 - Little bit of me time, going to learn something on the internet.
 - Work while you work, play while you play.
+
+# 25/06/2026
+- I logged into my arch, unknowingly, and the windows machine's time got messed and said, it was 4:30 AM in the **morning**. Then I synced the time.
+- I think I need to complete other stuffs regarding TDD.
+- Yes, JUnit5 advanced exercises.
