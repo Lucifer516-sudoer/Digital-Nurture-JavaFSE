@@ -203,3 +203,9 @@ public class SingleResponsibility {
 
 ## 10:24 AM
 - Not asked, but going to load from csv source
+
+## 11:04 AM
+- New info: Primitives can never be null
+  - **For eg:**
+    - if an method expects int object (or data, i aint sure though what u call it here), it cannot be supplied `null`
+    - but, if that method expects `String` data/object then it can be supplied `null`.
