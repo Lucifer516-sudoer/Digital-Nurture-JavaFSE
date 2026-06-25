@@ -4,10 +4,12 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.NullSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.stream.IntStream;
@@ -65,6 +67,12 @@ public class EvenCheckerTest {
     @MethodSource("evenNumbers")
     void shouldCheckEvenNumbersFromMethodSource(int number) {
         assertTrue(checker.isEven(number));
+    }
+
+    @ParameterizedTest
+    @NullSource
+    void isNullTest(String smtg) { // NOTE: Name is purposefully left ambiguous
+        assertNull(smtg);
     }
 
 }
