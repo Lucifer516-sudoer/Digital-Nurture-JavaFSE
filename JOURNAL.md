@@ -209,3 +209,10 @@ public class SingleResponsibility {
   - **For eg:**
     - if an method expects int object (or data, i aint sure though what u call it here), it cannot be supplied `null`
     - but, if that method expects `String` data/object then it can be supplied `null`.
+
+## 2:22 PM
+- Had lunch, and forgot to log for a while...
+- Instead of using `ChatGPT` was surfing the web ... (yep just like the old school way ...)
+
+# 27/06/2026
+- yesterday It just went with learning, and day before yesterday, i spent on coding, but didnt attach and push output
