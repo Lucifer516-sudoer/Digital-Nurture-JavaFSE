@@ -1,0 +1,25 @@
+package week01.day04.factorymethodpattern.factorypattern;
+
+public class PdfDocument implements Document {
+    private String filePath;
+
+    public PdfDocument(String filePath) {
+        this.filePath = filePath;
+    }
+
+    public String getFilePath() {
+        return filePath;
+    }
+
+    public void setFilePath(String filePath) {
+        this.filePath = filePath;
+    }
+
+    @Override
+    public boolean openDocument() {
+        if (this.filePath.endsWith(".pdf") == true)
+            return true;
+        return false;
+    }
+
+}
