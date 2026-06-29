@@ -237,3 +237,6 @@ public class SingleResponsibility {
 ## 11:07 AM
 - Successfully done the mockito mock object creation
 - Seems as if i can create a mocker myself in python just like this ...
+
+# 11:56 AM
+- I saw a dude's repo structure, it was future proof, so let me make mine too
