@@ -215,4 +215,21 @@ public class SingleResponsibility {
 - Instead of using `ChatGPT` was surfing the web ... (yep just like the old school way ...)
 
 # 27/06/2026
+## ~ 10 AM
 - yesterday It just went with learning, and day before yesterday, i spent on coding, but didnt attach and push output
+  
+## 3:05 PM
+- Feeling tired and sleepy ...
+- tryna complete the remaining hands on
+- Next stop, i want to understand spring boot, well the total spring umbrella
+- ANd also JPA, Hibernate
+- Then prepare for MCQ in detail, while also improving my communication and PS, CP, APT.
+- Need to learn DSA.
+- What am I gonna do though ?>! `:)`
+
+# Week 3
+> Took a little break, coz i was working you know ... ¯\_(ツ)_/¯
+> So I took a little break
+
+## 10:01 AM
+- Need to start a lot of things I kept in draft ...
