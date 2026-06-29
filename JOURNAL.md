@@ -233,3 +233,7 @@ public class SingleResponsibility {
 
 ## 10:01 AM
 - Need to start a lot of things I kept in draft ...
+
+## 11:07 AM
+- Successfully done the mockito mock object creation
+- Seems as if i can create a mocker myself in python just like this ...
