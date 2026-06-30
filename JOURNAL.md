@@ -267,3 +267,19 @@ public class SingleResponsibility {
 - Cannot bare sleeping, always running out of time
 - Cannot sleep in here too, if it was home, i wouldnt worry i can sleep (nap)
 - And recharge myself
+
+# 30th June, 2026 - 3:07:13 PM
+- Maybe i should do the handson
+- ANd complete it and add it to the outputs folder
+
+# 30th June, 2026 - 4:24:59 PM
+- Feeling devastated, unable to even complete a GUIDE to structure my learning
+
+# 30th June, 2026 - 4:36:05 PM
+- Well 25 days, it is.
+- Only 2 modules where done up and till now
+- How, am I going to complete the topics from angular to Microservices, spring, jpa, jdbc, hibernate?
+- Now it has become a very big ⁉️ mark...
+- Hmmmm 😮‍💨.
+- Its okay.
+- ``¯\_(ツ)_/¯``
