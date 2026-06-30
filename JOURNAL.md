@@ -262,3 +262,8 @@ public class SingleResponsibility {
 - Now I am feeling very tired and sleepy
 - had curd rice and apple, and naturally feeling sleepy too
 - Having trouble sleeping ...
+  
+# 30th June, 2026 - 3:03:09 PM
+- Cannot bare sleeping, always running out of time
+- Cannot sleep in here too, if it was home, i wouldnt worry i can sleep (nap)
+- And recharge myself
