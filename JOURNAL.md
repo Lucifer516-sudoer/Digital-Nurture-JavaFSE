@@ -257,3 +257,8 @@ public class SingleResponsibility {
 # 30th June, 2026 - 12:08:15 PM
 - Ok, where should I start, I left right around, Mockito basics ...
 - Need to install repomix too
+
+# 30th June, 2026 - 2:30:08 PM
+- Now I am feeling very tired and sleepy
+- had curd rice and apple, and naturally feeling sleepy too
+- Having trouble sleeping ...
