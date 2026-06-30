@@ -240,3 +240,16 @@ public class SingleResponsibility {
 
 # 11:56 AM
 - I saw a dude's repo structure, it was future proof, so let me make mine too
+
+---
+> Switched to arch
+> Why? I can type a lot in here ...
+---
+> Note: Starting from today
+> The date and time and logging method will be changed
+> Example format: ```# 30th June, 2026 - 12:02:59 PM```
+
+# 30th June, 2026 - 12:02:59 PM
+- Finally feels home to use Linux, with vim mode in vscode...
+- Added few extensions to insert date and time, easily
+- Its time for me to continue where I left ...
