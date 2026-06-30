@@ -10,12 +10,12 @@ public class BankServiceMockitoTest {
 
     @Test
     void testMockCreation() {
-        Database db = mock(Database.class);
-        System.out.println(db.getClass());
+        // Mockito here creates a programmable implementation from `Database`
+        Database db = mock(Database.class); // Mocking
 
-        when(db.getAccountBalance(1))
-                .thenReturn(5000f);
-        BankService bs = new BankService(db);
+        when(db.getAccountBalance(1)) //
+                .thenReturn(5000f); // Now we tell the mock to return 5000.0 whenever the userId is 1
+        BankService bs = new BankService(db); // bs works fine, because it depends only on the interface `Database`
         assertTrue(bs.canWithdraw(1, 2000));
     }
 }
