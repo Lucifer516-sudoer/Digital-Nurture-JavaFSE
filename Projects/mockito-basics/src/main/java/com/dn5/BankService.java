@@ -9,6 +9,8 @@ public class BankService {
 
     public boolean canWithdraw(int userID, int amount) {
         return database.getAccountBalance(userID) >= (amount + 500);
+        // return true; // Just was making intentional mistakes to learbn from the
+        // mistakes ...
     }
 
 }
