@@ -38,7 +38,7 @@ Standalone Maven projects:
 
 ## Outputs
 
-Screenshots organized by week/day in [outputs/](outputs/).
+Screenshots organized by week/day in [Outputs/](https://github.com/Lucifer516-sudoer/Digital-Nurture-JavaFSE/tree/main/Outputs).
 
 ## Archives
 
