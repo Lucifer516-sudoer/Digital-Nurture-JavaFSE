@@ -29,6 +29,11 @@ Java Full Stack Engineer training exercises and notes, organized by week and day
 | --- | ------------ | -------------- | ---------------------------------------------------------------------------------- |
 | 10  | Jun 29, 2026 | Mockito Basics | [solutions/week-03/day-10-mockito-basics](solutions/week-03/day-10-mockito-basics) |
 
+### Week 4
+| Day | Date         | Topic                  | Link                                                                                           |
+| --- | ------------ | ---------------------- | ---------------------------------------------------------------------------------------------- |
+| 16  | July 1, 2026 | Mockito (intermediate) | [solutions/week-04/day-16-mockito-intermediate](solutions/week-04/day-15-mockito-intermediate) |
+
 ## Projects
 
 Standalone Maven projects:
