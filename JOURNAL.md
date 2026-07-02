@@ -289,3 +289,24 @@ public class SingleResponsibility {
 - Started with using my mind to grab some ideas with Python and a polars related project i am currently working on ...
 - Okay, now its time for me to learn and improve ...
 - If you cannot give what it takes, then it will take what it wants.
+
+# 1st July, 2026 - 11:57:55 AM
+- Mock does seems to be useful
+- Its like a half child of Proxy and Inheritance, I suppose so, not sure.
+- Done using, verify, times(), never() and etc are one the line ...
+  
+# 1st July, 2026 - 12:12:50 PM
+- Way way way behind the schedule
+- And also have to prep for MCQ
+- While doing Hands-On
+- And others are inthe Spring Umbrella learning JPA, and Hibernate.
+- Me, still in mockito
+
+# 1st July, 2026 - 12:22:06 PM
+- Pausing the Mockito learning and doing something else to bring myself up from the boredom
+
+# 2nd July, 2026 - 10:09:56 AM
+- I am thinking of taking my own path, to cover the modules
+- Let me cover the spring boot + rest api first
+- I should gain, practical knowledge from it.
+- Because I will be coding isnt it?

@@ -51,3 +51,4 @@ Thumbs.db
 # ==========================
 *.class
 *.log
+*never_to_be_committed*
