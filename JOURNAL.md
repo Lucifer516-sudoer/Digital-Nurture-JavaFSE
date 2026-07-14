@@ -310,3 +310,21 @@ public class SingleResponsibility {
 - Let me cover the spring boot + rest api first
 - I should gain, practical knowledge from it.
 - Because I will be coding isnt it?
+
+# 2nd July, 2026 - 11:16:17 AM
+- Went on to see the spring framework
+- Then How it works on a high level
+- Need to learn, having energy to learn now, but feels hungry, maybe my hungerr is what driving me nowadays ...
+
+# 2nd July, 2026 - 11:43:00 AM
+Had snack + cool drink in the break time
+
+# 2nd July, 2026 - 12:36:06 PM
+- Shoot, i dont know what i am doing
+- I am always doing the same thing again and again
+
+
+# 14th July, 2026 - 11:19:04 PM
+- Had to take a very long break, from DN5.0 self-learning
+- Since, its self learning, i need to take a break, else, its an imposed learning
+- And I was learning about springboot in the mean time, w/o completing the hands-ons, i rather did them on a public computer
