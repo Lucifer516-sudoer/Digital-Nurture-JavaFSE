@@ -1,0 +1,52 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+vars:
+  SCRIPT_DIR: '{{.USER_WORKING_DIR}}/scripts'
+
+tasks:
+  default:
+    desc: "List all available workspace automation commands"
+    cmds:
+      - task --list
+
+  gen-template:
+    desc: "Generate a new Maven project structure"
+    cmds:
+      - chmod +x "{{.SCRIPT_DIR}}/maven_template_generate.sh"
+      - '"{{.SCRIPT_DIR}}/maven_template_generate.sh" {{.CLI_ARGS}}'
+
+  # ---------------------------------------------------------------------------
+  # Lazy & Smart Dev Loop Commands
+  # ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# Lazy & Smart Dev Loop Commands
+# ---------------------------------------------------------------------------
+
+  compile:
+    desc: "Intelligently compile the project in your current terminal folder"
+    cmds:
+      - mvn -f "{{.USER_WORKING_DIR}}/pom.xml" compile
+
+  build:
+    desc: "Package the project in your current terminal folder into a JAR"
+    cmds:
+      - mvn -f "{{.USER_WORKING_DIR}}/pom.xml" clean package
+
+  test:
+    desc: "Run JUnit tests for the project in your current terminal folder"
+    cmds:
+      - mvn -f "{{.USER_WORKING_DIR}}/pom.xml" test
+
+  run:
+    desc: "Run a class in your current terminal folder (e.g., task run -- com.dn5.App)"
+    cmds:
+      - |
+        if [ -z "{{.CLI_ARGS}}" ]; then
+          echo "Error: You must specify the main class name."
+          echo "Usage: task run -- com.dn5.App"
+          exit 1
+        fi
+        mvn -f "{{.USER_WORKING_DIR}}/pom.xml" exec:java -Dexec.mainClass="{{.CLI_ARGS}}"
