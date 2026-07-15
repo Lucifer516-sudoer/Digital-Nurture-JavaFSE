@@ -328,3 +328,10 @@ Had snack + cool drink in the break time
 - Had to take a very long break, from DN5.0 self-learning
 - Since, its self learning, i need to take a break, else, its an imposed learning
 - And I was learning about springboot in the mean time, w/o completing the hands-ons, i rather did them on a public computer
+
+# 15th July, 2026 - 9:15:21 AM
+- We are @ college, I think I need to first catch up, where I left, and IDK, how I am going to build my hobby app too ...
+
+
+# 15th July, 2026 - 10:13:22 AM
+- Just spent some time on, creating a bash script to make my life easier ...
