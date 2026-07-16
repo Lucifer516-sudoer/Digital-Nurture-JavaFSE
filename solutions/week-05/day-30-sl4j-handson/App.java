@@ -15,6 +15,4 @@ public class App {
         // now warning
         logger.warn("Hey this is warning, I am gonna sleep ...");
     }
-}{
-
 }

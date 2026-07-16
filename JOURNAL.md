@@ -335,3 +335,17 @@ Had snack + cool drink in the break time
 
 # 15th July, 2026 - 10:13:22 AM
 - Just spent some time on, creating a bash script to make my life easier ...
+  
+
+# 15th July, 2026 - 11:41:00 AM
+- Anxious now, IDK, whether within this 10 days i can complete all the remaining topics such as PL/SQL and Angular, and REST and stuffs
+- IDK
+- But now, I have an understanding of SL4J
+- And completed one hands on
+
+# 15th July, 2026 - 11:44:44 AM
+- Let me take a small break
+
+# 16th July, 2026 - 9:42:41 AM
+- Good morning to me, new day, fresh beginning, I need to do the hands on for SL4J, and then Spring Umbrella is waiting for me.
+- Moreover, the Microservices and Angular are kind of huge, and also bro, PL/SQL, never even heard of the term before
