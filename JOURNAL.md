@@ -349,3 +349,8 @@ Had snack + cool drink in the break time
 # 16th July, 2026 - 9:42:41 AM
 - Good morning to me, new day, fresh beginning, I need to do the hands on for SL4J, and then Spring Umbrella is waiting for me.
 - Moreover, the Microservices and Angular are kind of huge, and also bro, PL/SQL, never even heard of the term before
+
+# 16th July, 2026 - 10:26:20 AM
+- COmpleted 2 exercises in *43 minutes and 39 seconds.* Well its a huge time taken though.
+- WOrth it.
+- Next step Lombok it seems, chatgpt after reading my handbook is stating so ...
