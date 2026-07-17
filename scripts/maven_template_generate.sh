@@ -1,7 +1,17 @@
 #!/bin/bash
 
 echo "CWD: $(pwd)"
-printf "Do you want to create the project in here? [Y/n]: "
+printf "Enter a subfolder to nest this in (leave blank for none, eg: spring-playground): "
+read -r subfolder
+# This was re-written by claude for obvious above reasons
+
+targetBase="$(pwd)"
+if [[ -n "$subfolder" ]]; then
+    targetBase="${targetBase}/${subfolder}"
+    mkdir -p "$targetBase"
+fi
+
+printf "Do you want to create the project in '%s'? [Y/n]: " "$targetBase"
 read -r confirmation
 
 createMavenQuickstart ()
@@ -18,15 +28,17 @@ createMavenQuickstart ()
 
     if [[ $confirm == 'Y' ]] || [[ $confirm == 'y' ]]; then
         printf "Creating the archetype...\n"
-        mvn archetype:generate \
-            -DgroupId="$groupID" \
-            -DartifactId="$artifactID" \
-            -DarchetypeArtifactId="maven-archetype-quickstart" \
-            -DinteractiveMode="false"
+        (
+            cd "$targetBase" || exit 1
+            mvn archetype:generate \
+                -DgroupId="$groupID" \
+                -DartifactId="$artifactID" \
+                -DarchetypeArtifactId="maven-archetype-quickstart" \
+                -DinteractiveMode="false"
+        )
 
-        # shellcheck disable=SC2181
-        if [[ $? -eq 0 ]] && [[ -d "$artifactID" ]]; then
-            echo "✅ Project created successfully at $(pwd)/$artifactID"
+        if [[ $? -eq 0 ]] && [[ -d "${targetBase}/${artifactID}" ]]; then
+            echo "✅ Project created successfully at ${targetBase}/${artifactID}"
         else
             echo "❌ Maven archetype generation failed. Check the output above for errors."
             exit 1
