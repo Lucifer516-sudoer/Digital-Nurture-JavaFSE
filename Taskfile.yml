@@ -35,7 +35,7 @@ tasks:
         if git diff --cached --quiet; then
           echo "Nothing new to commit."
         else
-          git commit -m "chore: add solution copy $(date +'%Y-%m-%d %H:%M')"
+          git commit -m "log: add solution copy $(date +'%Y-%m-%d %H:%M')"
         fi
   # ---------------------------------------------------------------------------
   # Lazy & Smart Dev Loop Commands
