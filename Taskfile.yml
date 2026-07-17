@@ -19,11 +19,24 @@ tasks:
       - '"{{.SCRIPT_DIR}}/maven_template_generate.sh" {{.CLI_ARGS}}'
   
   copy-solution:
-    desc: "Copy pom.xml + java files from current project into solutions/weekXX/dayYY-name"
+    desc: "Copy pom.xml + java files from current project into solutions/weekXX/dayYY-name, then commit"
     dir: '{{.USER_WORKING_DIR}}'
     cmds:
       - chmod +x "{{.SCRIPT_DIR}}/copy_solution.sh"
       - '"{{.SCRIPT_DIR}}/copy_solution.sh" "{{.ROOT_DIR}}/solutions"'
+      - task: commit-solutions
+
+  commit-solutions:
+    internal: true
+    dir: '{{.ROOT_DIR}}'
+    cmds:
+      - git add solutions/
+      - |
+        if git diff --cached --quiet; then
+          echo "Nothing new to commit."
+        else
+          git commit -m "chore: add solution copy $(date +'%Y-%m-%d %H:%M')"
+        fi
   # ---------------------------------------------------------------------------
   # Lazy & Smart Dev Loop Commands
   # ---------------------------------------------------------------------------
