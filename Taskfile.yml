@@ -37,6 +37,13 @@ tasks:
         else
           git commit -m "log: add solution copy $(date +'%Y-%m-%d %H:%M')"
         fi
+
+  capture:
+    desc: "Run a class, screenshot output, copy the solution, and commit both"
+    dir: '{{.USER_WORKING_DIR}}'
+    cmds:
+      - chmod +x "{{.SCRIPT_DIR}}/output_capture.sh" "{{.SCRIPT_DIR}}/copy_solution.sh"
+      - '"{{.SCRIPT_DIR}}/output_capture.sh" "{{.ROOT_DIR}}/Outputs" "{{.ROOT_DIR}}/solutions" "{{.SCRIPT_DIR}}"'
   # ---------------------------------------------------------------------------
   # Lazy & Smart Dev Loop Commands
   # ---------------------------------------------------------------------------

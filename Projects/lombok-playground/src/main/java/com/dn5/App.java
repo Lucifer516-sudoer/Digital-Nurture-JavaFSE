@@ -18,5 +18,15 @@ public class App {
         print(student.getId());
         print(student.getName());
         print(student.getYearOfBirth());
+
+        student.setId(1);
+        student.setName("Emily");
+        student.setYearOfBirth(2005);
+        print("Printing Student after setters being called");
+
+        print(student.getId());
+        print(student.getName());
+        print(student.getYearOfBirth());
+
     }
 }

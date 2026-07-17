@@ -11,57 +11,51 @@
 # Since, I will be calling this with the help of `task`, this will be centered around that
 # --------------------------------------------------------------------------------------------------------------------------------------
 
-SOLUTIONS_ROOT="${1:?Usage: copy_solution.sh <solutions_root>}"
+SOLUTIONS_ROOT="${1:?Usage: copy_solution.sh <solutions_root> [week] [day] [solutionName]}"
+week="${2:-}"
+day="${3:-}"
+solutionName="${4:-}"
 
 echo "CWD: $(pwd)"
 
-while true; do
+while [[ -z "$week" ]]; do
     printf "Enter the week number: [Eg: 01] "
     read -r week
-    [[ -n "$week" ]] && break
-    echo "⚠️  Week number cannot be empty."
+    [[ -z "$week" ]] && echo "⚠️  Week number cannot be empty."
 done
 
-while true; do
+while [[ -z "$day" ]]; do
     printf "Enter the day number: [Eg: 33] "
     read -r day
-    [[ -n "$day" ]] && break
-    echo "⚠️  Day number cannot be empty."
+    [[ -z "$day" ]] && echo "⚠️  Day number cannot be empty."
 done
 
-while true; do
+while [[ -z "$solutionName" ]]; do
     printf "Enter the dir name for the solution: [Eg: sl4j-handson-001] "
     read -r solutionName
-    [[ -n "$solutionName" ]] && break
-    echo "⚠️  Solution name cannot be empty."
+    [[ -z "$solutionName" ]] && echo "⚠️  Solution name cannot be empty."
 done
 
 targetDir="${SOLUTIONS_ROOT}/week-${week}/day-${day}-${solutionName}"
 echo "Target Directory: ${targetDir}"
-printf "Shall we proceed: [Y/n] "
-read -r confirmation
 
-if [[ $confirmation == 'Y' ]] || [[ $confirmation == 'y' ]]; then
-    mkdir -p "$targetDir"
+mkdir -p "$targetDir"
 
-    if [[ -f pom.xml ]]; then
-        cp -v pom.xml "$targetDir"
-    else
-        echo "⚠️  No pom.xml found in $(pwd), skipping."
-    fi
-
-    mapfile -t javaFiles < <(find . -name "*.java" -type f)
-
-    if [[ ${#javaFiles[@]} -gt 0 ]]; then
-        for f in "${javaFiles[@]}"; do
-            cp -v "$f" "$targetDir"
-        done
-    else
-        echo "⚠️  No .java files found under $(pwd), skipping."
-    fi
-
-    touch "${targetDir}/README.md"
-    echo "✅ Copied into ${targetDir}"
+if [[ -f pom.xml ]]; then
+    cp -v pom.xml "$targetDir"
 else
-    echo "Tats ..."
+    echo "⚠️  No pom.xml found in $(pwd), skipping."
 fi
+
+mapfile -t javaFiles < <(find . -name "*.java" -type f)
+
+if [[ ${#javaFiles[@]} -gt 0 ]]; then
+    for f in "${javaFiles[@]}"; do
+        cp -v "$f" "$targetDir"
+    done
+else
+    echo "⚠️  No .java files found under $(pwd), skipping."
+fi
+
+touch "${targetDir}/README.md"
+echo "✅ Copied into ${targetDir}"
