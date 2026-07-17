@@ -354,3 +354,25 @@ Had snack + cool drink in the break time
 - COmpleted 2 exercises in *43 minutes and 39 seconds.* Well its a huge time taken though.
 - WOrth it.
 - Next step Lombok it seems, chatgpt after reading my handbook is stating so ...
+
+# 16th July, 2026 - 11:40:55 AM
+- Feeling hungry, and also tired.
+- If I was at home, I could have taken a nap, but @ home, can't have fan, and also have to sit down on the floor.
+- Need to eat, or else I will fall asleep... (who knows it can be forever, if I dont take care of myself)
+
+# 16th July, 2026 - 11:47:44 AM
+- Going to solve some codechef problems, feels wasting time, cant think of learning lombok, so yeah some puzzles for my brain, next food to my tummy
+
+
+# 17th July, 2026 - 9:15:03 AM
+- As time went, I didn't even do anything.
+- Cognitive overload I suppose.
+
+# 17th July, 2026 - 9:23:06 AM
+- GOing to try out lombok, though there are no hands-on
+- And, I need to prep for the MCQ too
+
+# 17th July, 2026 - 9:46:31 AM
+- Created the lombok project folder
+- Updated the maven template generator script
+- And also, updated the `Taskfile.yml` a bit.

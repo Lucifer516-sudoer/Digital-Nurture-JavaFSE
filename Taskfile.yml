@@ -3,16 +3,17 @@
 version: '3'
 
 vars:
-  SCRIPT_DIR: '{{.USER_WORKING_DIR}}/scripts'
+  SCRIPT_DIR: '{{.TASKFILE_DIR}}/scripts'
 
 tasks:
   default:
     desc: "List all available workspace automation commands"
     cmds:
-      - task --list
+      - go-task --list
 
   gen-template:
     desc: "Generate a new Maven project structure"
+    dir: '{{.ROOT_DIR}}/Projects'
     cmds:
       - chmod +x "{{.SCRIPT_DIR}}/maven_template_generate.sh"
       - '"{{.SCRIPT_DIR}}/maven_template_generate.sh" {{.CLI_ARGS}}'
@@ -20,10 +21,6 @@ tasks:
   # ---------------------------------------------------------------------------
   # Lazy & Smart Dev Loop Commands
   # ---------------------------------------------------------------------------
-
-# ---------------------------------------------------------------------------
-# Lazy & Smart Dev Loop Commands
-# ---------------------------------------------------------------------------
 
   compile:
     desc: "Intelligently compile the project in your current terminal folder"
