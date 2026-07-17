@@ -408,3 +408,12 @@ Had snack + cool drink in the break time
 # 17th July, 2026 - 4:05:29 PM
 - Ooof, it was one hell of a work, had to use claude to correct the sub-folder handling in the ***maven template creator script***
 - Now turning back on the dev mode.
+
+
+# 17th July, 2026 - 4:17:33 PM
+- I think I am taking a detour, and going on with the **spring with no spring** stuff.
+- Chatgpt, told me. But, he is not to be blamed.
+- I love, doing stuffs from ***scratch***.
+- I think, I have to work today night, else, I will not be completing the remaining portions within atleast 5 days.
+- 17+5=22, 22nd huh?
+- Okay let me give a try.
