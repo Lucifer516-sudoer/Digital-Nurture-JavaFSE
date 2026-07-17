@@ -75,7 +75,7 @@ case $day_num in
     3|23)    suffix="rd" ;;
     *)       suffix="th" ;;
 esac
-dateHeader="# ${day_num}${suffix} $(date +'%B, %Y - %-I:%M:%S %p')"
+dateHeader="# ${day_num}${suffix} $(date +'%B, %Y • %-I:%M:%S %p')"
 
 # --- Notes input from you, terminated with Ctrl-D (EOF) ---
 echo "📝 Enter any notes for this solution (press Ctrl-D when done, or just Ctrl-D immediately to skip):"
