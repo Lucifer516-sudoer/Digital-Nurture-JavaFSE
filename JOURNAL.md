@@ -380,3 +380,7 @@ Had snack + cool drink in the break time
 # 17th July, 2026 - 9:52:48 AM
 - From here on, I would like to standardize whenever this `JOURNAL.md` gets committed, I want to tag it as `journal:`
 - Because, that would be helpful actually in future sometime later ...
+
+# 17th July, 2026 - 9:58:42 AM
+- INteresting, actually <scope> defined as provided for `lombok`, which means that, we dont need to include it in the jar file after build.
+- WHy? because the generated class is created during the compilation itself. 
