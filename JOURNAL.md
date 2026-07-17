@@ -404,3 +404,7 @@ Had snack + cool drink in the break time
 - Did those automation stuffs
 - Now wrote the equals and hashcode annotation, and surprisinngly it too has the Exclude `nested annotation` in it, just like `ToString`
 - let me first do the equals stuff and then carry on with the remaining as per chatgpt's help
+
+# 17th July, 2026 - 4:05:29 PM
+- Ooof, it was one hell of a work, had to use claude to correct the sub-folder handling in the ***maven template creator script***
+- Now turning back on the dev mode.
