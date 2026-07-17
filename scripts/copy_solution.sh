@@ -37,7 +37,7 @@ while [[ -z "$solutionName" ]]; do
 done
 
 targetDir="${SOLUTIONS_ROOT}/week-${week}/day-${day}-${solutionName}"
-echo "Target Directory: ${targetDir}"
+echo "🎯 Target Directory: ${targetDir}"
 
 mkdir -p "$targetDir"
 
@@ -57,5 +57,40 @@ else
     echo "⚠️  No .java files found under $(pwd), skipping."
 fi
 
-touch "${targetDir}/README.md"
+# Compute relative path depth from targetDir back up to the repo root,
+# so the README image link works regardless of whether solutionName contains a slash.
+solutionsRootAbs=$(cd "$SOLUTIONS_ROOT" && pwd)
+targetDirAbs=$(cd "$targetDir" && pwd)
+relPathFromRepoRoot="${targetDirAbs#"$solutionsRootAbs"/}"
+depth=$(( $(grep -o '/' <<< "$relPathFromRepoRoot" | wc -l) + 2 ))
+relPrefix=$(printf '../%.0s' $(seq 1 "$depth"))
+
+safeName="${solutionName//\//_}"
+
+# --- Auto-generated datetime header, e.g. "# 17th July, 2026 - 2:16:36 PM" ---
+day_num=$(date +%-d)
+case $day_num in
+    1|21|31) suffix="st" ;;
+    2|22)    suffix="nd" ;;
+    3|23)    suffix="rd" ;;
+    *)       suffix="th" ;;
+esac
+dateHeader="# ${day_num}${suffix} $(date +'%B, %Y - %-I:%M:%S %p')"
+
+# --- Notes input from you, terminated with Ctrl-D (EOF) ---
+echo "📝 Enter any notes for this solution (press Ctrl-D when done, or just Ctrl-D immediately to skip):"
+notes=$(cat)
+
+cat << EOF > "${targetDir}/README.md"
+${dateHeader}
+
+${notes}
+
+---
+# Output:
+![${solutionName}](${relPrefix}Outputs/week-${week}/day-${day}/${safeName}.png)
+
+---
+EOF
+
 echo "✅ Copied into ${targetDir}"
