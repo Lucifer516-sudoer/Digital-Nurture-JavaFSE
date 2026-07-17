@@ -384,3 +384,8 @@ Had snack + cool drink in the break time
 # 17th July, 2026 - 9:58:42 AM
 - INteresting, actually <scope> defined as provided for `lombok`, which means that, we dont need to include it in the jar file after build.
 - WHy? because the generated class is created during the compilation itself. 
+
+# 17th July, 2026 - 1:43:37 PM
+- From now on, all the output+solution commits will bear `log: ` as the tag. Why? I don't know, its the name near to its purpose.
+- Now really doing other stuffs in lombok, since got few ***kohai*** for me.
+- [Scripts, i.e my ***kohai***](scripts)
