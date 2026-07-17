@@ -10,5 +10,6 @@ import lombok.ToString;
 public class Student {
     private int id;
     private String name;
+    @ToString.Exclude
     private int yearOfBirth;
 }
