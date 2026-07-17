@@ -399,3 +399,8 @@ Had snack + cool drink in the break time
 
 # 17th July, 2026 - 2:14:26 PM
 - Wrote the ToStringg too
+
+# 17th July, 2026 - 3:16:51 PM
+- Did those automation stuffs
+- Now wrote the equals and hashcode annotation, and surprisinngly it too has the Exclude `nested annotation` in it, just like `ToString`
+- let me first do the equals stuff and then carry on with the remaining as per chatgpt's help
