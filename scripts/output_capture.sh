@@ -48,6 +48,7 @@ echo "▶️  Running $mainClass ..."
 mvn -q -f pom.xml exec:java -Dexec.mainClass="$mainClass"
 echo "✅ Program finished."
 
+sleep 1
 # 3. Capture screenshot automatically
 outputDir="${OUTPUTS_ROOT}/week-${week}/day-${day}"
 mkdir -p "$outputDir"
