@@ -376,3 +376,7 @@ Had snack + cool drink in the break time
 - Created the lombok project folder
 - Updated the maven template generator script
 - And also, updated the `Taskfile.yml` a bit.
+
+# 17th July, 2026 - 9:52:48 AM
+- From here on, I would like to standardize whenever this `JOURNAL.md` gets committed, I want to tag it as `journal:`
+- Because, that would be helpful actually in future sometime later ...
