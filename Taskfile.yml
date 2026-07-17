@@ -17,7 +17,13 @@ tasks:
     cmds:
       - chmod +x "{{.SCRIPT_DIR}}/maven_template_generate.sh"
       - '"{{.SCRIPT_DIR}}/maven_template_generate.sh" {{.CLI_ARGS}}'
-
+  
+  copy-solution:
+    desc: "Copy pom.xml + java files from current project into solutions/weekXX/dayYY-name"
+    dir: '{{.USER_WORKING_DIR}}'
+    cmds:
+      - chmod +x "{{.SCRIPT_DIR}}/copy_solution.sh"
+      - '"{{.SCRIPT_DIR}}/copy_solution.sh" "{{.ROOT_DIR}}/solutions"'
   # ---------------------------------------------------------------------------
   # Lazy & Smart Dev Loop Commands
   # ---------------------------------------------------------------------------
