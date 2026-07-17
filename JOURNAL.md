@@ -389,3 +389,13 @@ Had snack + cool drink in the break time
 - From now on, all the output+solution commits will bear `log: ` as the tag. Why? I don't know, its the name near to its purpose.
 - Now really doing other stuffs in lombok, since got few ***kohai*** for me.
 - [Scripts, i.e my ***kohai***](scripts)
+
+# 17th July, 2026 - 2:10:29 PM
+- Felt good, to automate that tiresome work, knowing bit of bash and vibe coding seems to be useful
+- And also lombok, is quite useful
+- And regarding scripts i even had this idea of having a common place to hold the week and day, because we wont be chaning it that much.
+- But i dont need it now, time is quite short.
+- And I have lots of pending topics to complete
+
+# 17th July, 2026 - 2:14:26 PM
+- Wrote the ToStringg too

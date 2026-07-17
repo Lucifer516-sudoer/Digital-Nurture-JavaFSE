@@ -15,18 +15,12 @@ public class App {
 
     public static void main(String[] args) {
         Student student = new Student();
-        print(student.getId());
-        print(student.getName());
-        print(student.getYearOfBirth());
-
+        // Just removed the gettters; don't need it now.
+        // and also dont need to print getters
         student.setId(1);
         student.setName("Emily");
         student.setYearOfBirth(2005);
-        print("Printing Student after setters being called");
-
-        print(student.getId());
-        print(student.getName());
-        print(student.getYearOfBirth());
-
+        print("Printing the whole student (I suppose I can call this dataclass for my sake...)");
+        print(student.toString());
     }
 }
