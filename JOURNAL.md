@@ -417,3 +417,27 @@ Had snack + cool drink in the break time
 - I think, I have to work today night, else, I will not be completing the remaining portions within atleast 5 days.
 - 17+5=22, 22nd huh?
 - Okay let me give a try.
+
+# 17th July, 2026 - 7:05:36 PM
+- Got home, started doing the remaining part of the database, need to complete it, or else, i cannot sleep normally
+- Now creating the database for the plain java School Management System (SMS 😂) I dont know if that is what, Chat, actually asked me to do, but I am doing it as if its a student management system (even now its SMS)
+  
+# 17th July, 2026 - 7:27:16 PM
+- Funny enough, since i was keeping my keyboard on top of the lap's keyboard, the power button got clicked, and unlike windows, i didnt want the power button to get to sleep, i wanted it to be power off.
+- OKay, what i got here for is, I made the Database implementation chatgpt mentioned.
+- And now off, to wiring the Repository. Idk why they call it repositiory, will look into it.
+- Right now, I need to complete it doenst matter.
+
+# 17th July, 2026 - 8:21:41 PM
+- Just wrote the model, repo, service, and database layers, let me have fd and enjoy some `onepiece`
+
+# 17th July, 2026 - 11:50:57 PM
+- Winding down, got lost in thoughts.
+
+# 18th July, 2026 - 11:05:32 AM
+- Forgot to add entry, the time was around 10:14 AM, and i came here after playing around flet
+- And was forced to switch to flutter, coz, flet has limitations in Animations, and I am actually having the itch to experiment with Flutter.
+- And now, i have understood the real reason why the spring core exists.
+- To manage my objects, lazily, on-demand, just like a factory (IoC container)
+- DI -> supplynig dependencies instead of creating it. ( i know its vague and wrong, but idk) 
+- Now, then, let me add the trophy to solutions
