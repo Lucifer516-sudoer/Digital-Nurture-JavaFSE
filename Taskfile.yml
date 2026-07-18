@@ -17,7 +17,25 @@ tasks:
     cmds:
       - chmod +x "{{.SCRIPT_DIR}}/maven_template_generate.sh"
       - '"{{.SCRIPT_DIR}}/maven_template_generate.sh" {{.CLI_ARGS}}'
-  
+  pushj:
+    desc: pushj stands for PushJournal, we can push our journal easily via this I suppose
+    dir: '{{.ROOT_DIR}}/'
+    cmds:
+      - git status # for no reason
+      - git add JOURNAL.md
+      - |
+        printf "Enter your reflection message alone: ";
+        read -r message;
+        git commit -m "journal: ${message} [$(date +'%Y-%m-%d • %H:%M')]"
+  self-push:
+    desc: well, whenever I update the Taskfile.yml i will be running this to commit, idk i am loving this 💕
+    dir: '{{.ROOT_DIR}}'
+    cmds:
+      - git status
+      - git add Taskfile.yml
+      - |
+        ls -alh
+        git commit -m "chore: Updated the Taskfile.yml. Refer inside the commit for more info. [$(date +'%Y-%m-%d • %H:%M')]"
   copy-solution:
     desc: "Copy pom.xml + java files from current project into solutions/weekXX/dayYY-name, then commit"
     dir: '{{.USER_WORKING_DIR}}'
