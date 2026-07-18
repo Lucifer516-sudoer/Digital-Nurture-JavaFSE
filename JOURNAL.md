@@ -472,4 +472,12 @@ public class SimpleContainer {
         }
     }
 }
-    ```
+```
+
+
+# 18th July, 2026 - 1:46:25 PM
+- I dont know what i am actually doing, feeling tired.
+- Slightly craving for ice-cream or tea.
+- And my right side lower stomach is paining. What could be the reason?
+- OKay, let me first understand how the IoC container works in detail.
+- And then implement it and then do my work.
