@@ -441,3 +441,35 @@ Had snack + cool drink in the break time
 - To manage my objects, lazily, on-demand, just like a factory (IoC container)
 - DI -> supplynig dependencies instead of creating it. ( i know its vague and wrong, but idk) 
 - Now, then, let me add the trophy to solutions
+
+
+# 18th July, 2026 - 1:25:15 PM
+- Had food, now sitting to proceed with phase 2 of spring (learning)
+- Wrote the below code, and just with a very glance, i understood it wont work.
+- *The code*:
+```java
+package com.dn5.spring.ioc;
+
+import java.util.Map;
+import java.util.HashMap;
+
+public class SimpleContainer {
+    private final Map<Class<?>, Object> box = new HashMap<>();
+
+    public boolean addToBox(Object object) {
+        if (box.getOrDefault(object, null) == null) {
+            box.putIfAbsent(object.getClass(), object.getClass());
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public Object createObject(Class<?> clazz) {
+        if (box.get(clazz) != null) {
+
+            return new clazz();
+        }
+    }
+}
+    ```
