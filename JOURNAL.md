@@ -520,3 +520,11 @@ public class SimpleContainer {
 - But its ok, everything is for good, if its not good, then I WILL make it BETTER.
 - Now, got a small work to deploy a VPS, for my friends' trading system.
 - He has been asking for a week, and my week was quite tremendously heavy
+
+
+# 24th July, 2026 - 9:48:34 PM
+- Actually created that  VPS 2vCPUs and 8gigs of ram and yeah, it is going to roughly cost $140/month
+- Well $1000 credits is there isnt it?
+- And I should have been working in here isnt it? but i cant why?
+- Hey can I use the system in remotely? but i need interenet for that... damn bro ...
+- I am going to structure my obsidian and then, goingg to sleep, need to wake up by 5 AM (atleast try)
