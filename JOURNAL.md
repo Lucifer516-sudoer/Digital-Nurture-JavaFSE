@@ -512,3 +512,11 @@ public class SimpleContainer {
     1. i tried to take it out by using the heating neeedle, 
     2. then tried to use a led refill heated it and tried to take it out, well it was in vain, but hey i tried
     3. then, at last got some strength, thought of breaking the bead, with a weight my mom had in the kitchen. well all otehr things from gemini, werent working, so got irritated you know.
+
+# 24th July, 2026 - 7:57:23 PM
+- Forgot to mention this, yesterday, got so much frustrated, because of a long awaited case status 
+- coz my dad and more than 200 fams were awaiting, for it, and it got disposed
+- It was quite idk, the word.
+- But its ok, everything is for good, if its not good, then I WILL make it BETTER.
+- Now, got a small work to deploy a VPS, for my friends' trading system.
+- He has been asking for a week, and my week was quite tremendously heavy
