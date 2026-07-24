@@ -481,3 +481,34 @@ public class SimpleContainer {
 - And my right side lower stomach is paining. What could be the reason?
 - OKay, let me first understand how the IoC container works in detail.
 - And then implement it and then do my work.
+
+# 24th July, 2026 - 7:40:39 PM
+- OOf, it has been a week it seems
+- Dont worry buddy, i wasnt idle, i was learning, but
+- I couldnt get handle of this laptop, and we where not allowed to use our laptop
+- And I am a privacy freak, so naturally couldn't log in in there
+- Completed the `skillspring`
+- What did i do in this hefty time?
+  - Angular CLI 
+    - ng serve (ng s)
+  - And also understood, angular is nothing but a framework, that makes SPA stuffs while making all the UI elements into their own components
+  - And hey, it has component tree
+  - And `property binding`, `event binding`
+  - And then ***DOM -> TS***, ***TS -> DOM***. I dont know what i wrote this for
+  - Then, there are quite a hefty amount of stuffs
+  - And also I created a real calculator app (for Mobile Phone (on Web))
+    - With Vanilla HTML, CSS, JS
+    - And then the same with Angular, (same vanilla)
+  - Got a good undestanding, and then, yeah
+  - Need to re-structure my note taking, I cant make enough of my efforts.
+  - I want to do a lot
+  - And also, was able to get inspired by Mr. C and C++, and also re-entered the realm of Flutter
+  - And then yeah, this is what i was able to write in here, as a nutshell,
+  - let me commit and push this, and complete the remaining modules
+  - By modules, Idk, whether i can complete the PL/SQL or not, and also I need to complete the Hands-On somehow
+  - Because our whole system doesnt care about the process, all it worries is about the ***RESULT***.
+  - And yeah, I am learning, and will continue to learn ...
+  - And during a day, a silica gel, got inside my laptop's barrel jack pin (the circle shaped one (the bead of silica gel, used to absorb water and moisture)), and 
+    1. i tried to take it out by using the heating neeedle, 
+    2. then tried to use a led refill heated it and tried to take it out, well it was in vain, but hey i tried
+    3. then, at last got some strength, thought of breaking the bead, with a weight my mom had in the kitchen. well all otehr things from gemini, werent working, so got irritated you know.
