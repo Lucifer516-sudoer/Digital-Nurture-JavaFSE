@@ -534,3 +534,6 @@ public class SimpleContainer {
 
 # 25th July, 2026 - 11:20:56 AM
 - If i was allowe to get to home and study i will be more than happy.
+
+# 25th July, 2026 - 8:01:32 PM
+- Yep, same me again. Just got hold of the code, i have to add into the hands-on let me add them and push, since there are only 3 days left, and I need to learn a lot ... by my standards
