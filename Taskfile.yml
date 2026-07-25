@@ -39,11 +39,11 @@ tasks:
         git push origin main
 
   copy-solution:
-    desc: "Copy pom.xml + java files from current project into solutions/weekXX/dayYY-name, then commit"
+    desc: "Copy pom.xml + java files into solutions/weekXX/dayYY-name, then commit. Usage: task copy-solution -- <week> <day> <name> [notes]"
     dir: '{{.USER_WORKING_DIR}}'
     cmds:
       - chmod +x "{{.SCRIPT_DIR}}/copy_solution.sh"
-      - '"{{.SCRIPT_DIR}}/copy_solution.sh" "{{.ROOT_DIR}}/solutions"'
+      - '"{{.SCRIPT_DIR}}/copy_solution.sh" "{{.ROOT_DIR}}/solutions" {{.CLI_ARGS}}'
       - task: commit-solutions
 
   commit-solutions:
