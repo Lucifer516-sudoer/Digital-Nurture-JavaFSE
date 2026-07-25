@@ -528,3 +528,9 @@ public class SimpleContainer {
 - And I should have been working in here isnt it? but i cant why?
 - Hey can I use the system in remotely? but i need interenet for that... damn bro ...
 - I am going to structure my obsidian and then, goingg to sleep, need to wake up by 5 AM (atleast try)
+
+# 25th July, 2026 - 11:19:08 AM
+- Somehow during the college time I have got access to this laptop, don't ask me how, I will be doing some stuff now ...
+
+# 25th July, 2026 - 11:20:56 AM
+- If i was allowe to get to home and study i will be more than happy.
