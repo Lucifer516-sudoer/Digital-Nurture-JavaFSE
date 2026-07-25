@@ -59,11 +59,13 @@ tasks:
         fi
 
   capture:
-    desc: "Run a class, screenshot output, copy the solution, and commit both. Usage: task capture -- <mainClass> <week> <day> <name> [notes]"
+    desc: "Run a class, screenshot output, copy the solution, and commit both. Usage: task capture -- <mainClass> <week> <day> <name> [notes] [waitSeconds]"
     dir: '{{.USER_WORKING_DIR}}'
     cmds:
       - chmod +x "{{.SCRIPT_DIR}}/output_capture.sh" "{{.SCRIPT_DIR}}/copy_solution.sh"
-      - '"{{.SCRIPT_DIR}}/output_capture.sh" "{{.ROOT_DIR}}/Outputs" "{{.ROOT_DIR}}/solutions" "{{.SCRIPT_DIR}}" {{.CLI_ARGS}}'  # ---------------------------------------------------------------------------
+      - '"{{.SCRIPT_DIR}}/output_capture.sh" "{{.ROOT_DIR}}/Outputs" "{{.ROOT_DIR}}/solutions" "{{.SCRIPT_DIR}}" {{.CLI_ARGS}}'
+      
+  # ---------------------------------------------------------------------------
   # Lazy & Smart Dev Loop Commands
   # ---------------------------------------------------------------------------
 
