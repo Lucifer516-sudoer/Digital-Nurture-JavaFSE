@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="database" class="com.dn5.spring.database.Database" />
+
+    <bean id="studentRepository" class="com.dn5.spring.repository.StudentRepository">
+        <constructor-arg ref="database" />
+    </bean>
+
+    <bean id="teacherRepository" class="com.dn5.spring.repository.TeacherRepository">
+        <constructor-arg ref="database" />
+    </bean>
+
+    <bean id="studentService" class="com.dn5.spring.service.StudentService">
+        <constructor-arg ref="studentRepository" />
+    </bean>
+
+    <bean id="teacherService" class="com.dn5.spring.service.TeacherService">
+        <constructor-arg ref="teacherRepository" />
+    </bean>
+
+</beans>

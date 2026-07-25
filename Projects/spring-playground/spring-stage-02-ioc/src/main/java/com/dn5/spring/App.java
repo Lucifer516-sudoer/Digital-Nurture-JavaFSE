@@ -1,22 +1,17 @@
 package com.dn5.spring;
 
-import com.dn5.spring.database.Database;
-import com.dn5.spring.repository.StudentRepository;
-import com.dn5.spring.repository.TeacherRepository;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 import com.dn5.spring.service.StudentService;
 import com.dn5.spring.service.TeacherService;
 
 public class App {
     public static void main(String[] args) {
-        Database database = new Database();
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        StudentRepository studentRepository = new StudentRepository(database);
-
-        TeacherRepository teacherRepository = new TeacherRepository(database);
-
-        StudentService studentService = new StudentService(studentRepository);
-
-        TeacherService teacherService = new TeacherService(teacherRepository);
+        StudentService studentService = context.getBean("studentService", StudentService.class);
+        TeacherService teacherService = context.getBean("teacherService", TeacherService.class);
 
         // Admissions
         System.out.println(studentService.createNewAdmission(4, "Emily", 2007));
