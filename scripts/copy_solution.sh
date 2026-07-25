@@ -10,11 +10,24 @@
 # So this script will ease my pain, with making the copy process easy
 # Since, I will be calling this with the help of `task`, this will be centered around that
 # --------------------------------------------------------------------------------------------------------------------------------------
+#
+# Usage:
+#   Interactive (unchanged):  copy_solution.sh <solutions_root>
+#   Non-interactive:          copy_solution.sh <solutions_root> <week> <day> <solutionName> [notes]
+#     - notes is optional; if omitted, notes are read from stdin (heredoc/pipe) same as before.
+#     - if notes is passed as an arg, stdin is NOT touched, so this is safe to call from Taskfile
+#       without needing a heredoc.
+#
+# Java files are copied preserving their package folder structure (everything from
+# src/main/java/... or src/test/java/... onward), instead of flattening into one folder.
+# This means the copied solution can actually be compiled/inspected with its packages intact.
+# --------------------------------------------------------------------------------------------------------------------------------------
 
-SOLUTIONS_ROOT="${1:?Usage: copy_solution.sh <solutions_root> [week] [day] [solutionName]}"
+SOLUTIONS_ROOT="${1:?Usage: copy_solution.sh <solutions_root> [week] [day] [solutionName] [notes]}"
 week="${2:-}"
 day="${3:-}"
 solutionName="${4:-}"
+notesArg="${5:-}"
 
 echo "CWD: $(pwd)"
 
@@ -51,7 +64,25 @@ mapfile -t javaFiles < <(find . -name "*.java" -type f)
 
 if [[ ${#javaFiles[@]} -gt 0 ]]; then
     for f in "${javaFiles[@]}"; do
-        cp -v "$f" "$targetDir"
+        # Strip leading "./"
+        relPath="${f#./}"
+
+        # Preserve package structure: keep everything from "src/main/java/" or
+        # "src/test/java/" onward. If neither marker is found, fall back to a
+        # flat copy into the root of targetDir (old behavior) and warn.
+        if [[ "$relPath" == *"src/main/java/"* ]]; then
+            destSubPath="${relPath#*src/main/java/}"
+            destFile="${targetDir}/src/main/java/${destSubPath}"
+        elif [[ "$relPath" == *"src/test/java/"* ]]; then
+            destSubPath="${relPath#*src/test/java/}"
+            destFile="${targetDir}/src/test/java/${destSubPath}"
+        else
+            echo "⚠️  Could not determine package path for '$relPath', copying flat to target root."
+            destFile="${targetDir}/$(basename "$f")"
+        fi
+
+        mkdir -p "$(dirname "$destFile")"
+        cp -v "$f" "$destFile"
     done
 else
     echo "⚠️  No .java files found under $(pwd), skipping."
@@ -77,9 +108,13 @@ case $day_num in
 esac
 dateHeader="# ${day_num}${suffix} $(date +'%B, %Y • %-I:%M:%S %p')"
 
-# --- Notes input from you, terminated with Ctrl-D (EOF) ---
-echo "📝 Enter any notes for this solution (press Ctrl-D when done, or just Ctrl-D immediately to skip):"
-notes=$(cat)
+# --- Notes: use $5 if provided (non-interactive path), otherwise fall back to stdin (unchanged behavior) ---
+if [[ -n "$notesArg" ]]; then
+    notes="$notesArg"
+else
+    echo "📝 Enter any notes for this solution (press Ctrl-D when done, or just Ctrl-D immediately to skip):"
+    notes=$(cat)
+fi
 
 cat << EOF > "${targetDir}/README.md"
 ${dateHeader}
