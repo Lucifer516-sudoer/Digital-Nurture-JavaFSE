@@ -1,6 +1,6 @@
-# 25th July, 2026 • 10:17:43 PM
+# 25th July, 2026 • 10:32:25 PM
 
-Country entity, repo, service. Find + add country. Exercise: 1. spring-data-jpa-handson
+Country entity, repo, service. Find + add country.
 
 ---
 # Output:
