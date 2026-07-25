@@ -537,3 +537,13 @@ public class SimpleContainer {
 
 # 25th July, 2026 - 8:01:32 PM
 - Yep, same me again. Just got hold of the code, i have to add into the hands-on let me add them and push, since there are only 3 days left, and I need to learn a lot ... by my standards
+
+# 25th July, 2026 - 10:12:17 PM
+- Took me more than the amount of time, I thought it would take.
+- It doenst matter, i need to complete it ... huh .??
+
+# 25th July, 2026 - 10:43:04 PM
+- NOT GOIGN TO ADD ALL THE OUTPUTS, got NOOOO strength to even sit, back is hurting like hell
+- Has been running for the last 3 months, lots of health issues to me, my dad and my mum, and a lot.
+- Need some time, not stating this as a lame legged reason.
+- I jsut got no strength now. 
