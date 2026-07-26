@@ -547,3 +547,10 @@ public class SimpleContainer {
 - Has been running for the last 3 months, lots of health issues to me, my dad and my mum, and a lot.
 - Need some time, not stating this as a lame legged reason.
 - I jsut got no strength now. 
+
+# 26th July, 2026 - 6:35:11 AM
+- Had a good night sleep, was able to wake up on my own without alarm or my mom's yelling (@ 5:57 AM)
+- and though today is sunday, our college asked us to come to college ...
+- No other options ...
+- And the main thing, which came into existence was that, whenever i am automating a stuff, i must make make it language agnostic if possible, its not mandatory its just something good to have
+- And I need to first revise all these concepts within these limited period of time called 3 Days
