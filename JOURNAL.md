@@ -554,3 +554,6 @@ public class SimpleContainer {
 - No other options ...
 - And the main thing, which came into existence was that, whenever i am automating a stuff, i must make make it language agnostic if possible, its not mandatory its just something good to have
 - And I need to first revise all these concepts within these limited period of time called 3 Days
+  
+# 27th July, 2026 - 8:29:21 PM
+- SOmething and somewhere in between I messed up the dates, my colleagues mentioned this week 6, there must be git, so I am going to move the git stuffs into this weeek andd you know ...
