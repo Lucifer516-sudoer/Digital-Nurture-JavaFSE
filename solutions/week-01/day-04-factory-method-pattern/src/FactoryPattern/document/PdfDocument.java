@@ -1,4 +1,4 @@
-package week01.day04.factorymethodpattern.factorypattern;
+package week01.day04.factorymethodpattern.factorypattern.document;
 
 public class PdfDocument implements Document {
     private String filePath;

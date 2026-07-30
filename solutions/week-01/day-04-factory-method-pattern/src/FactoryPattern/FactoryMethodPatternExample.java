@@ -16,6 +16,12 @@
 
 package week01.day04.factorymethodpattern.factorypattern;
 
+import week01.day04.factorymethodpattern.factorypattern.document.core.BaseDocument;
+import week01.day04.factorymethodpattern.factorypattern.factory.DocumentFactory;
+import week01.day04.factorymethodpattern.factorypattern.factory.ExcelFactory;
+import week01.day04.factorymethodpattern.factorypattern.factory.WordFactory;
+import week01.day04.factorymethodpattern.factorypattern.factory.PdfFactory;
+
 public class FactoryMethodPatternExample {
     public static void main(String[] args) {
         String pdfFilePath = "Java FSE\\DN 5.0-Deepskilling-Handbook-Java-FSE-Angular.pdf";
@@ -28,7 +34,7 @@ public class FactoryMethodPatternExample {
 
         System.out.println("Testing the FactoryMethod pattern,");
 
-        Document[] docs = {
+        BaseDocument[] docs = {
                 pdfCreator.createDocument(pdfFilePath),
                 wordCreator.createDocument(wordFilePath),
                 excelCreator.createDocument(excelFilePath),
@@ -36,7 +42,7 @@ public class FactoryMethodPatternExample {
         };
         System.out.println("Created Documents for the supported Document types");
 
-        for (Document each : docs) {
+        for (BaseDocument each : docs) {
             System.out.println("Opened document: " + each.openDocument());
         }
 
